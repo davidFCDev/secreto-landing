@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import Spiral from "../common/spiral";
+import ArrowRight from "../common/arrowright";
 
 const Hero = () => {
   return (
@@ -14,9 +15,18 @@ const Hero = () => {
           Cazando airdrops <span>|</span> Maximiza tu capital <span>|</span>{" "}
           Contenido diario
         </p>
-        <button className="btn btn-primary font-bold tracking-wider text-xl px-6 uppercase">
-          Suscríbete
-        </button>
+        <a
+          href="https://secretodefi.substack.com/subscribe"
+          target="_blank"
+          className="group"
+        >
+          <button className="btn btn-primary font-bold tracking-wider text-xl px-6 uppercase flex items-center gap-2">
+            <span>Suscríbete</span>
+            <div className="transform transition-transform duration-300 group-hover:rotate-45">
+              <ArrowRight width={14} />
+            </div>
+          </button>
+        </a>
       </div>
       <div className="relative flex items-center justify-center">
         <Image

@@ -13,7 +13,7 @@ const Links = () => {
         <h1 className="text-5xl font-bold">Encuéntrame aquí</h1>
       </div>
       <div className="w-full flex">
-        <div className="flex flex-col p-12 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
+        <a href="https://x.com/SecretoDefi" target="_blank" className="flex flex-col p-12 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-bold uppercase">Encuéntrame en la red</h2>
             <p className="text-lg">34k+ seguidores</p>
@@ -27,8 +27,8 @@ const Links = () => {
             </div>
             <ArrowRight width={18} />
           </div>
-        </div>
-        <div className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
+        </a>
+        <a href="https://t.me/secretodefi" target="_blank" className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
           <div className="flex flex-col gap-2">
             <h2 className="text-xl font-bold uppercase">Únete a la comunidad</h2>
             <p className="text-lg">5k+ miembros</p>
@@ -42,13 +42,13 @@ const Links = () => {
             </div>
             <ArrowRight width={18} />
           </div>
-        </div>
+        </a>
 
         <div className="indicator w-full">
           <span className="indicator-item badge badge-primary px-5 py-4 text-base font-semibold">
             new
           </span>
-          <div className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
+          <a href="https://secretodefi.substack.com/subscribe" target="_blank" className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
             <div className="flex flex-col gap-2">
               <h2 className="text-xl font-bold uppercase">Consigue la membresía</h2>
               <p className="text-lg">entérate primero</p>
@@ -62,7 +62,7 @@ const Links = () => {
               </div>
               <ArrowRight width={18} />
             </div>
-          </div>
+          </a>
         </div>
       </div>
     </div>

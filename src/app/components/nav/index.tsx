@@ -64,18 +64,28 @@ const NavBar = () => {
           <div className="hidden flex-none lg:block">
             <div className="menu menu-horizontal flex items-center gap-5 text-3xl">
               {/* Navbar menu content here */}
-              <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
-                <FaXTwitter />
-              </div>
-              <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
-                <FaTelegram />
-              </div>
-              <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
-                <BsSubstack />
-              </div>
+              <a href="https://x.com/SecretoDefi" target="_blank">
+                <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
+                  <FaXTwitter />
+                </div>
+              </a>
+              <a href="https://t.me/secretodefi" target="_blank">
+                <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
+                  <FaTelegram />
+                </div>
+              </a>
+              <a href="https://secretodefi.substack.com/subscribe" target="_blank">
+                <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
+                  <BsSubstack />
+                </div>
+              </a>
               <div>
                 <div className="dropdown">
-                  <div tabIndex={0} role="button" className="btn m-1 rounded-sm">
+                  <div
+                    tabIndex={0}
+                    role="button"
+                    className="btn m-1 rounded-sm"
+                  >
                     Theme
                     <svg
                       width="12px"
@@ -96,7 +106,7 @@ const NavBar = () => {
                         type="radio"
                         name="theme-dropdown"
                         className="theme-controller btn btn-sm btn-block btn-ghost justify-start"
-                        aria-label="Default"
+                        aria-label="Forest"
                         value="default"
                       />
                     </li>
