@@ -27,11 +27,17 @@ const FAQ = [
     response:
       "No te pierdas las mejores oportunidades para farmear airdrops antes que nadie en mi comunidad. Consigue capitalizarte con un bajo coste e incluso, de forma GRATUITA.",
   },
+  {
+    number: 5,
+    question: "Precio",
+    response:
+      "Tienes dos opciones: una gratuíta enfocada a oportunidades sin capital y otra más avanzada, de pago. Ésta última más enfocada en obtener rentabilidad con yield farming. (15€/mes)",
+  },
 ];
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-20 pb-32 pt-10 items-start w-full">
+    <div className="flex flex-col gap-24 py-24 items-start w-full">
       <div className="flex w-full justify-between gap-10 min-h-[500px]">
         <div className="flex flex-col items-start justify-between w-full">
           <div className="flex flex-col gap-4 text-start">
@@ -45,13 +51,16 @@ const About = () => {
               <h2 className="text-2xl font-bold">
                 ¿Por qué deberías suscribirte?
               </h2>
-              <p>
-                Sin ninguna duda, estos son los motivos principales por lo que
+              <p className="flex flex-col gap-2">
+                <span>La suscripción en Substack consta de dos opciones: una gratuita y otra de pago.</span>
+                <span>Éstos son los motivos principales por lo que
                 deberías leer mi contenido y que seguro van a responder a muchas
-                de tus preguntas.
+                de tus preguntas.</span>
               </p>
             </div>
-            <div className="flex w-full justify-end"><ArrowRight width={20} /></div>
+            <div className="flex w-full justify-end">
+              <ArrowRight width={20} />
+            </div>
           </div>
         </div>
 

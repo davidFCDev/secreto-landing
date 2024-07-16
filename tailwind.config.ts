@@ -31,7 +31,7 @@ const config: Config = {
     require('daisyui')
   ],
   daisyui: {
-    themes: ['forest']
+    themes: ['forest', "sunset", "dim", "dracula"]
   }
 };
 export default config;

@@ -5,18 +5,18 @@ import ArrowRight from "../common/arrowright";
 
 const Links = () => {
   return (
-    <div className="flex flex-col gap-20 py-24 items-center w-full">
+    <div className="flex flex-col gap-24 py-24 items-center w-full">
       <div className="flex flex-col gap-4 text-center">
         <h2 className="uppercase text-primary font-semibold text-2xl tracking-widest">
           Social
         </h2>
-        <h1 className="text-5xl font-bold">Encuéntrame aqui</h1>
+        <h1 className="text-5xl font-bold">Encuéntrame aquí</h1>
       </div>
       <div className="w-full flex">
         <div className="flex flex-col p-12 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
           <div className="flex flex-col gap-2">
-            <h2 className="text-xl font-bold uppercase">Find me on the feed</h2>
-            <p className="text-lg">200k+ followers</p>
+            <h2 className="text-xl font-bold uppercase">Encuéntrame en la red</h2>
+            <p className="text-lg">34k+ seguidores</p>
           </div>
           <div className="flex w-full justify-between items-end">
             <div className="flex flex-col-reverse gap-10 items-start justify-between text-5xl font-bold">
@@ -30,8 +30,8 @@ const Links = () => {
         </div>
         <div className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
           <div className="flex flex-col gap-2">
-            <h2 className="text-xl font-bold uppercase">Join our community</h2>
-            <p className="text-lg">300k+ members</p>
+            <h2 className="text-xl font-bold uppercase">Únete a la comunidad</h2>
+            <p className="text-lg">5k+ miembros</p>
           </div>
           <div className="flex w-full justify-between items-end">
             <div className="flex flex-col-reverse gap-10 items-start justify-between text-5xl font-bold">
@@ -50,8 +50,8 @@ const Links = () => {
           </span>
           <div className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
             <div className="flex flex-col gap-2">
-              <h2 className="text-xl font-bold uppercase">Get membership</h2>
-              <p className="text-lg">be always early</p>
+              <h2 className="text-xl font-bold uppercase">Consigue la membresía</h2>
+              <p className="text-lg">entérate primero</p>
             </div>
             <div className="flex w-full justify-between items-end">
               <div className="flex flex-col-reverse gap-10 items-start justify-between text-5xl font-bold">

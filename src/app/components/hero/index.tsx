@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Spiral from "../common/spiral";
 
 const Hero = () => {
   return (
@@ -17,15 +18,19 @@ const Hero = () => {
           Suscríbete
         </button>
       </div>
-      <Image 
-          src="/logo-secreto.png" 
-          alt="logo secreto defi" 
+      <div className="relative flex items-center justify-center">
+        <Image
+          src="/logo.svg"
+          alt="logo secreto defi"
           width={400}
           height={400}
-          objectFit="contain"
+          objectFit="cover"
           quality={100}
-          className="w-[350px] xlarge:w-[500px]"
         />
+        <div className="absolute">
+          <Spiral />
+        </div>
+      </div>
     </div>
   );
 };
