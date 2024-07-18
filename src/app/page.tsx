@@ -1,10 +1,12 @@
 import About from "./components/about";
 import Advisory from "./components/advisory";
+import Carousel from "./components/carousel";
 import Description from "./components/description";
 import Footer from "./components/footer";
 import Hero from "./components/hero";
 import Links from "./components/links";
 import NavBar from "./components/nav";
+import Promotion from "./components/promotion";
 
 export default function Home() {
   return (
@@ -16,6 +18,8 @@ export default function Home() {
         <About />
         <Advisory />
         <Links />
+        <Promotion/>
+        <Carousel />
       </main>
 
       <Footer />
