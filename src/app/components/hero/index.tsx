@@ -6,15 +6,16 @@ import ArrowRight from "../common/arrowright";
 const Hero = () => {
   return (
     <div className="flex w-full justify-between pt-10 items-center min-h-screen">
-      <div className="flex flex-col items-start max-w-3xl">
-        <h1 className="text-6xl sm:text-8xl font-extrabold">
-          haciendo fácil el ecosistema{" "}
+      <div className="flex flex-col items-start small:max-w-3xl">
+        <h1 className="text-6xl small:text-8xl font-extrabold">
+          Haciendo fácil el ecosistema{" "}
           <span className="text-primary">Defi</span>
         </h1>
-        <p className="py-6 text-lg flex gap-3">
-          Cazando airdrops <span>|</span> Maximiza tu capital <span>|</span>{" "}
-          Contenido diario
-        </p>
+        <ul className="py-6 text-xs small:text-lg flex whitespace-nowrap gap-3">
+          <li>Cazando airdrops</li> <span className="hidden small:block">|</span>{" "}
+          <li>Maximiza tu capital</li> <span className="hidden small:block">|</span>{" "}
+          <li>Contenido diario</li>
+        </ul>
         <a
           href="https://secretodefi.substack.com/subscribe"
           target="_blank"
@@ -28,12 +29,12 @@ const Hero = () => {
           </button>
         </a>
       </div>
-      <div className="relative flex items-center justify-center">
+      <div className="relative items-center justify-center hidden small:flex">
         <Image
           src="/logo.svg"
           alt="logo secreto defi"
-          width={400}
-          height={400}
+          width={370}
+          height={370}
           objectFit="cover"
           quality={100}
         />

@@ -1,7 +1,9 @@
 "use client";
+import Image from "next/image";
 import React, { useState, useEffect } from "react";
 import { BsSubstack } from "react-icons/bs";
 import { FaTelegram, FaXTwitter } from "react-icons/fa6";
+import Spiral from "../common/spiral";
 
 const NavBar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -53,12 +55,12 @@ const NavBar = () => {
               </svg>
             </label>
           </div>
-          <div className="flex-1 font-bold text-2xl uppercase items-end gap-2 ">
+          <div className="flex-1 font-bold text-xl small:text-2xl uppercase items-end gap-2 ">
             <p>
-              <span className="text-3xl font-extrabold">S</span>ecreto
+              <span className="text-2xl small:text-3xl font-extrabold">S</span>ecreto
             </p>
             <p>
-              <span className="text-3xl font-extrabold">D</span>efi
+              <span className="text-2xl small:text-3xl font-extrabold">D</span>efi
             </p>
           </div>
           <div className="hidden flex-none lg:block">
@@ -74,7 +76,10 @@ const NavBar = () => {
                   <FaTelegram />
                 </div>
               </a>
-              <a href="https://secretodefi.substack.com/subscribe" target="_blank">
+              <a
+                href="https://secretodefi.substack.com/subscribe"
+                target="_blank"
+              >
                 <div className="flex items-center justify-center p-3 bg-transparent hover:bg-primary cursor-pointer text-white hover:text-base-100">
                   <BsSubstack />
                 </div>
@@ -142,9 +147,22 @@ const NavBar = () => {
               </div>
             </div>
           </div>
+            <div className="relative items-center justify-center flex small:hidden pr-4">
+              <Image
+                src="/logo.svg"
+                alt="logo secreto defi"
+                width={30}
+                height={30}
+                objectFit="cover"
+                quality={100}
+              />
+              <div className="absolute">
+                <Spiral />
+              </div>
+          </div>
         </div>
       </div>
-      <div className="drawer-side">
+      <div className="drawer-side z-40">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
@@ -152,6 +170,7 @@ const NavBar = () => {
         ></label>
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
+          <p>HOLA</p>
           <FaXTwitter className=" text-white hover:text-primary cursor-pointer" />
           <FaTelegram className=" text-white hover:text-primary cursor-pointer" />
           <BsSubstack className=" text-white hover:text-primary cursor-pointer" />

@@ -37,21 +37,21 @@ const FAQ = [
 
 const About = () => {
   return (
-    <div className="flex flex-col gap-24 py-24 items-start w-full">
-      <div className="flex w-full justify-between gap-10 min-h-[500px]">
-        <div className="flex flex-col items-start justify-between w-full">
-          <div className="flex flex-col gap-4 text-start">
-            <h2 className="uppercase text-primary font-semibold text-2xl tracking-widest">
+    <div className="flex flex-col py-14 small:py-24 items-start w-full">
+      <div className="flex flex-col small:flex-row w-full justify-between gap-10 small:min-h-[500px]">
+        <div className="flex flex-col items-start small:justify-between gap-10 small:gap-0 w-full">
+          <div className="flex flex-col gap-4 text-center small:text-start">
+            <h2 className="uppercase text-primary font-semibold text-xl small:text-2xl tracking-widest">
               Suscripción
             </h2>
-            <h1 className="text-5xl font-bold">Preguntas frecuentes</h1>
+            <h1 className="text-4xl small:text-5xl font-bold">Preguntas frecuentes</h1>
           </div>
-          <div className="flex flex-col bg-base-100 p-10 w-full justify-between h-64">
+          <div className="flex flex-col bg-base-100 p-4 small:p-10 w-full justify-between small:h-64">
             <div className="flex flex-col gap-5">
               <h2 className="text-2xl font-bold">
                 ¿Por qué deberías suscribirte?
               </h2>
-              <p className="flex flex-col gap-2">
+              <p className="flex flex-col gap-2 text-sm small:text-base">
                 <span>La suscripción en Substack consta de dos opciones: una gratuita y otra de pago.</span>
                 <span>Éstos son los motivos principales por lo que
                 deberías leer mi contenido y que seguro van a responder a muchas

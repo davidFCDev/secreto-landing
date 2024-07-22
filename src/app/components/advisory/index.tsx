@@ -28,7 +28,7 @@ const Advisory = () => {
                 <div className="chat-bubble chat-bubble-primary flex gap-5 items-center p-4">
                   <Image src="/ojos.png" alt="ojos" width={50} height={50} />
                   <p className="font-semibold">
-                    Diferenciar conceptos entre YIELD FARMING y YIELD AGGREGATOR
+                    Diferenciar conceptos entre YIELD FARMING, AGGREGATOR, GAS REFUEL, etc.
                   </p>
                 </div>
               </div>

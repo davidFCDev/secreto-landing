@@ -50,8 +50,8 @@ const Links = () => {
           </span>
           <a href="https://secretodefi.substack.com/subscribe" target="_blank" className="flex flex-col p-10 bg-base-100 w-full h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">
             <div className="flex flex-col gap-2">
-              <h2 className="text-xl font-bold uppercase">Consigue la membresía</h2>
-              <p className="text-lg">entérate primero</p>
+              <h2 className="text-xl font-bold uppercase">Accede a la membresía</h2>
+              <p className="text-lg">Entérate primero</p>
             </div>
             <div className="flex w-full justify-between items-end">
               <div className="flex flex-col-reverse gap-10 items-start justify-between text-5xl font-bold">

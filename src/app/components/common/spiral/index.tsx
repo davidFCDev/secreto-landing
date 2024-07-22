@@ -2,7 +2,7 @@
 const Spiral = () => {
   return (
     <svg
-      className="text-primary "
+      className="text-primary w-10 small:w-full"
       width="433"
       height="433"
       viewBox="0 0 433 433"

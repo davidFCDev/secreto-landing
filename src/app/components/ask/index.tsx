@@ -14,7 +14,7 @@ const Ask: React.FC<AskProps> = ({ question, response, number }) => {
       <span className="font-bold text-primary">{number}</span>. {question}
       </div>
       <div className="collapse-content">
-        <p className="font-light text-justify">{response}</p>
+        <p className="font-light text-justify text-sm small:text-base">{response}</p>
       </div>
     </div>
   );
