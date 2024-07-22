@@ -25,7 +25,7 @@ const Carousel = () => {
       imgSrc: "/post-4.png",
       title: "Proyectos",
       subtitle: "Paga con tus cryptos. Este bullrun lo vas a necesitar.",
-      twitterLink: "https://twitter.com/post-4",
+      twitterLink: "https://x.com/SecretoDefi/status/1814676798472405491",
     },
   ];
 

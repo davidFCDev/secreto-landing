@@ -18,8 +18,8 @@ export default function Home() {
         <About />
         <Advisory />
         <Links />
-        <Promotion/>
         <Carousel />
+        <Promotion/>
       </main>
 
       <Footer />
