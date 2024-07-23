@@ -19,7 +19,7 @@ export default function Home() {
         <Advisory />
         <Links />
         <Carousel />
-        <Promotion/>
+        <Promotion />
       </main>
 
       <Footer />
