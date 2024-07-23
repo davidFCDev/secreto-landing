@@ -55,7 +55,10 @@ const NavBar = () => {
               </svg>
             </label>
           </div>
-          <a href="/" className="flex-1 font-bold text-xl small:text-2xl uppercase items-end gap-2 ">
+          <a
+            href="/"
+            className="flex-1 font-bold text-xl small:text-2xl uppercase items-end gap-2 "
+          >
             <p>
               <span className="text-2xl small:text-3xl font-extrabold">S</span>
               ecreto
@@ -172,12 +175,39 @@ const NavBar = () => {
         ></label>
         <div className="menu bg-base-200 min-h-full w-80 py-10 gap-2">
           {/* Sidebar content here */}
-          <a href="/" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Inicio</a>
-          <a href="https://t.me/secretodefi" target="_blank" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Telegram</a>
-          <a href="https://x.com/SecretoDefi" target="_blank" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">X.com</a>
-          <a href="https://secretodefi.substack.com/subscribe" target="_blank" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Substack</a>
-          <a href="mailto:info@secretodefi.com" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Contacto</a>
-
+          <a
+            href="/"
+            className="theme-controller btn btn-sm btn-block btn-ghost justify-center"
+          >
+            Inicio
+          </a>
+          <a
+            href="https://t.me/secretodefi"
+            target="_blank"
+            className="theme-controller btn btn-sm btn-block btn-ghost justify-center"
+          >
+            Telegram
+          </a>
+          <a
+            href="https://x.com/SecretoDefi"
+            target="_blank"
+            className="theme-controller btn btn-sm btn-block btn-ghost justify-center"
+          >
+            X.com
+          </a>
+          <a
+            href="https://secretodefi.substack.com/subscribe"
+            target="_blank"
+            className="theme-controller btn btn-sm btn-block btn-ghost justify-center"
+          >
+            Substack
+          </a>
+          <a
+            href="mailto:info@secretodefi.com"
+            className="theme-controller btn btn-sm btn-block btn-ghost justify-center"
+          >
+            Contacto
+          </a>
         </div>
       </div>
     </nav>
