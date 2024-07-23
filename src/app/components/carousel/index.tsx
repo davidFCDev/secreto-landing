@@ -30,18 +30,18 @@ const Carousel = () => {
   ];
 
   return (
-    <div className="flex flex-col gap-24 py-24 items-center w-full">
+    <div className="flex flex-col py-14 small:py-24 gap-10 small:gap-24 items-center w-full">
       <div className="flex flex-col gap-4 text-center">
-        <h2 className="uppercase text-primary font-semibold text-2xl tracking-widest">
+        <h2 className="uppercase text-primary font-semibold text-xl small:text-2xl tracking-widest">
           X.com
         </h2>
-        <h1 className="text-5xl font-bold">Algunos de mis post</h1>
+        <h1 className="text-4xl small:text-5xl font-bold">Algunos de mis post</h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-x-4">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 small:gap-x-4 gap-y-6 small:gap-y-0">
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="card bg-base-100 w-96 shadow-xl rounded-none"
+            className="card bg-base-100 small:w-96 shadow-xl rounded-none"
           >
             <div className="relative w-full h-56 bg-white">
               <Image

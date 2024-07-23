@@ -5,17 +5,17 @@ import ArrowRight from "../common/arrowright";
 
 const Advisory = () => {
   return (
-    <div className="flex flex-col gap-24 py-24 items-center w-full">
+    <div className="flex flex-col py-14 small:py-24 gap-10 small:gap-24 items-center w-full">
       <div className="flex flex-col gap-4 text-center">
-        <h2 className="uppercase text-primary font-semibold text-2xl tracking-widest">
+        <h2 className="uppercase text-primary font-semibold text-xl small:text-2xl tracking-widest">
           Asesorías
         </h2>
-        <h1 className="text-5xl font-bold">Todo lo que necesitas</h1>
+        <h1 className="text-4xl small:text-5xl font-bold">Todo lo que necesitas</h1>
       </div>
 
       <div className="flex w-full items-start gap-20">
-        <div className="flex w-full items-start gap-10">
-          <div className="flex flex-col place-items-center gap-8 w-[500px]">
+        <div className="flex flex-col small:flex-row w-full items-center small:items-start gap-10">
+          <div className="flex flex-col place-items-center gap-8 small:w-[500px]">
             <div className="flex items-center justify-center h-28 bg-base-100 w-full">
               <h2 className="text-xl font-semibold text-center rounded-2x tracking-wider">
                 ¿Qué temas <br />
@@ -83,8 +83,8 @@ const Advisory = () => {
               </div>
             </div>
           </div>
-          <div className="rotate-45 mt-12"><ArrowRight width={18} /></div>
-          <div className="flex flex-col place-items-center gap-8 w-[500px]">
+          <div className="rotate-90 small:rotate-45 small:mt-12"><ArrowRight width={18} /></div>
+          <div className="flex flex-col place-items-center gap-8 small:w-[500px]">
             <div className="flex items-center justify-center h-28 bg-base-100 w-full">
               <h2 className="text-xl font-semibold text-center tracking-wider">
                 ¿Cómo pedir <br />
@@ -152,7 +152,7 @@ const Advisory = () => {
               </div>
             </div>
           </div>
-          <div className="rotate-45 mt-12"><ArrowRight width={18} /></div>
+          <div className="rotate-90 small:rotate-45 small:mt-12"><ArrowRight width={18} /></div>
           <ContactForm />
         </div>
       </div>

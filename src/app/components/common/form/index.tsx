@@ -48,7 +48,7 @@ export const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="flex flex-col gap-8 w-[400px]">
+    <form onSubmit={handleSubmit} className="flex flex-col gap-8 w-full small:w-[400px]">
       <div className="flex items-center justify-center h-28 bg-base-100 w-full">
         <h2 className="text-xl font-semibold text-center tracking-wider">
           Rellena el <br />

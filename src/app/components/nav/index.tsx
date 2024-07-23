@@ -170,7 +170,6 @@ const NavBar = () => {
         ></label>
         <ul className="menu bg-base-200 min-h-full w-80 p-4">
           {/* Sidebar content here */}
-          <p>HOLA</p>
           <FaXTwitter className=" text-white hover:text-primary cursor-pointer" />
           <FaTelegram className=" text-white hover:text-primary cursor-pointer" />
           <BsSubstack className=" text-white hover:text-primary cursor-pointer" />
