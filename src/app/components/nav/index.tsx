@@ -55,14 +55,16 @@ const NavBar = () => {
               </svg>
             </label>
           </div>
-          <div className="flex-1 font-bold text-xl small:text-2xl uppercase items-end gap-2 ">
+          <a href="/" className="flex-1 font-bold text-xl small:text-2xl uppercase items-end gap-2 ">
             <p>
-              <span className="text-2xl small:text-3xl font-extrabold">S</span>ecreto
+              <span className="text-2xl small:text-3xl font-extrabold">S</span>
+              ecreto
             </p>
             <p>
-              <span className="text-2xl small:text-3xl font-extrabold">D</span>efi
+              <span className="text-2xl small:text-3xl font-extrabold">D</span>
+              efi
             </p>
-          </div>
+          </a>
           <div className="hidden flex-none lg:block">
             <div className="menu menu-horizontal flex items-center gap-5 text-3xl">
               {/* Navbar menu content here */}
@@ -147,33 +149,36 @@ const NavBar = () => {
               </div>
             </div>
           </div>
-            <div className="relative items-center justify-center flex small:hidden pr-4">
-              <Image
-                src="/logo.svg"
-                alt="logo secreto defi"
-                width={30}
-                height={30}
-                objectFit="cover"
-                quality={100}
-              />
-              <div className="absolute">
-                <Spiral />
-              </div>
+          <div className="relative items-center justify-center flex small:hidden pr-4">
+            <Image
+              src="/logo.svg"
+              alt="logo secreto defi"
+              width={30}
+              height={30}
+              objectFit="cover"
+              quality={100}
+            />
+            <div className="absolute">
+              <Spiral />
+            </div>
           </div>
         </div>
       </div>
-      <div className="drawer-side z-40">
+      <div className="drawer-side z-50">
         <label
           htmlFor="my-drawer-3"
           aria-label="close sidebar"
           className="drawer-overlay"
         ></label>
-        <ul className="menu bg-base-200 min-h-full w-80 p-4">
+        <div className="menu bg-base-200 min-h-full w-80 py-10 gap-2">
           {/* Sidebar content here */}
-          <FaXTwitter className=" text-white hover:text-primary cursor-pointer" />
-          <FaTelegram className=" text-white hover:text-primary cursor-pointer" />
-          <BsSubstack className=" text-white hover:text-primary cursor-pointer" />
-        </ul>
+          <a href="/" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Inicio</a>
+          <a href="https://t.me/secretodefi" target="_blank" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Telegram</a>
+          <a href="https://x.com/SecretoDefi" target="_blank" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">X.com</a>
+          <a href="https://secretodefi.substack.com/subscribe" target="_blank" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Substack</a>
+          <a href="mailto:info@secretodefi.com" className="theme-controller btn btn-sm btn-block btn-ghost justify-center">Contacto</a>
+
+        </div>
       </div>
     </nav>
   );

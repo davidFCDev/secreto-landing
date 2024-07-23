@@ -45,7 +45,7 @@ const Links = () => {
         </a>
 
         <div className="indicator w-full">
-          <span className="indicator-item badge badge-primary px-5 py-4 text-base font-semibold">
+          <span className="right-10 top-6 small:right-0 small:top-0 indicator-item badge badge-primary px-5 py-4 text-base font-semibold">
             new
           </span>
           <a href="https://secretodefi.substack.com/subscribe" target="_blank" className="flex flex-col p-10 bg-base-100 w-full h-[350px] small:h-[400px] justify-between border border-zinc-800 cursor-pointer hover:bg-primary hover:text-base-300 transition duration-300 ease-in-out">

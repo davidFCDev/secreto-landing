@@ -37,11 +37,11 @@ const Carousel = () => {
         </h2>
         <h1 className="text-4xl small:text-5xl font-bold">Algunos de mis post</h1>
       </div>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 small:gap-x-4 gap-y-6 small:gap-y-0">
+      <div className="grid grid-cols-1 small:grid-cols-2 large:grid-cols-4 gap-6">
         {cardsData.map((card, index) => (
           <div
             key={index}
-            className="card bg-base-100 small:w-96 shadow-xl rounded-none"
+            className="card bg-base-100 shadow-xl rounded-none"
           >
             <div className="relative w-full h-56 bg-white">
               <Image
