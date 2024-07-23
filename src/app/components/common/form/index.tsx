@@ -27,7 +27,7 @@ export const ContactForm = () => {
 
     setIsSubmitting(true);
     try {
-      const response = await axios.post("https://formspree.io/f/xovavjjw", {
+      const response = await axios.post("https://formspree.io/f/xpwaqlpd", {
         name: name.value,
         phone: contact.value,
         description: description.value,

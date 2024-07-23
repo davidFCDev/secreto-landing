@@ -29,14 +29,14 @@ const Legal = () => {
     <div className="w-full bg-base-300 min-h-screen">
       <NavBar />
 
-      <main className="my-40 px-6 small:px-20 xlarge:px-40 flex flex-col gap-5 text-justify">
-        <div className="flex flex-row gap-0 small:gap-10 justify-between">
+      <main className="my-40 px-6 small:px-20 xlarge:px-40 flex flex-col gap-5 small:gap-10 text-justify">
+        <div className="flex flex-row gap-0 small:gap-10 justify-between small:justify-start">
           {tabs.map((tab, index) => (
             <button
               key={index}
               onClick={() => handleTabChange(index)}
-              className={`text-xl font-semibold ${
-                selected === index ? "text-primary hover:text-secondary" : " hover:text-primary"
+              className={`text-xl font-semibold px-5 py-2 ${
+                selected === index ? "border-primary border" : "border border-transparent"
               }`}
             >
               {tab.title}
