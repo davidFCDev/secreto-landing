@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import { BsSubstack } from "react-icons/bs";
@@ -40,6 +41,9 @@ const Footer = () => {
           reservados
         </p>
       </aside>
+      <nav className="grid grid-flow-col">
+        <a href="https://t.me/chukinice" target="_blank" >Design by: <img src="/logo-sin.png" alt="web developer" className="w-32" /></a>
+      </nav>
     </footer>
   );
 };

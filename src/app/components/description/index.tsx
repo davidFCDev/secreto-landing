@@ -22,12 +22,11 @@ const Description = () => {
             </h2>
           </div>
           <p className="text-justify leading-relaxed font-light text-sm small:text-base">
-            SecretoDefi nace en pleno bull run en el DefiSummer del 2021, tras
-            estar viviendo lo que es un mercado lleno de oportunidades, decide
-            lanzarse a crear contenido de forma pública en YouTube tras ver que
-            las finanzas descentralizadas se le daban muy bien y que por
-            desgracia, en la comunidad hispano-hablante había muy poco
-            información.
+            En pleno bull run en el DefiSummer del 2021, tras estar viviendo lo
+            que es un mercado lleno de oportunidades, decido lanzarme a crear
+            contenido de forma pública en YouTube tras ver que las finanzas
+            descentralizadas se me daban muy bien y que, por desgracia, en la
+            comunidad hispano-hablante había muy poca información.
           </p>
         </div>
 
@@ -41,10 +40,10 @@ const Description = () => {
             </h2>
           </div>
           <p className="text-justify leading-relaxed font-light text-sm small:text-base">
-            Marc (SecretoDefi), es una persona enfocada al 100% en las
+            SOy una persona enfocada al 100% en las
             oportunidades dentro del ecosistema DeFi dónde vamos rotando entre
             las diferentes narrativas para sacarle el máximo rendimiento, por
-            ejemplo con el farming/liquidez concentrada, con estrategias de
+            ejemplo, con el farming/liquidez concentrada, con estrategias de
             máxima eficiencia de capital, con el farmeo de testnets y mainnets
             para calificar en el reparto de futuros airdrops y mucho más.
           </p>
@@ -61,10 +60,10 @@ const Description = () => {
           <p className="text-justify leading-relaxed font-light text-sm small:text-base">
             Nace para ayudar a otras personas en este nicho tan complicado y
             bonito a la vez, conmigo podrás ahorrarte un montón de horas de
-            investigación gracias a la experiencia que he vivido yo mismo. Pasos
-            a pasos, herramientas necesarias para tu día a día, tips de
-            seguridad para no caer en estafas u otras ayudas que te facilitarán
-            el moverte por todo el ecosistema.
+            investigación gracias a la experiencia que he vivido yo mismo. Paso
+            a paso, herramientas necesarias para tu día a día, tips de seguridad
+            para no caer en estafas u otras ayudas que te facilitarán el moverte
+            por todo el ecosistema.
           </p>
         </div>
         <div className="bg-primary text-base-100 p-4 small:p-10 flex flex-col gap-4 group">
@@ -72,7 +71,7 @@ const Description = () => {
             <div className="transform transition-transform duration-300 group-hover:rotate-45 group-hover:text-base-100">
               <ArrowRight width={16} />
             </div>
-            <h2 className="text-2xl small:text-3xl font-semibold">Servicios</h2>
+            <h2 className="text-2xl small:text-3xl font-semibold">Oportunidad</h2>
           </div>
           <p className="text-justify leading-relaxed font-semibold text-sm small:text-base">
             Si te ha parecido interesante y crees que es una buena oportunidad
