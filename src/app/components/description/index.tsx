@@ -1,4 +1,3 @@
-import React from "react";
 import ArrowRight from "../common/arrowright";
 
 const Description = () => {
@@ -40,12 +39,12 @@ const Description = () => {
             </h2>
           </div>
           <p className="text-justify leading-relaxed font-light text-sm small:text-base">
-            SOy una persona enfocada al 100% en las
-            oportunidades dentro del ecosistema DeFi dónde vamos rotando entre
-            las diferentes narrativas para sacarle el máximo rendimiento, por
-            ejemplo, con el farming/liquidez concentrada, con estrategias de
-            máxima eficiencia de capital, con el farmeo de testnets y mainnets
-            para calificar en el reparto de futuros airdrops y mucho más.
+            Soy una persona enfocada al 100% en las oportunidades dentro del
+            ecosistema DeFi dónde vamos rotando entre las diferentes narrativas
+            para sacarle el máximo rendimiento, por ejemplo, con el
+            farming/liquidez concentrada, con estrategias de máxima eficiencia
+            de capital, con el farmeo de testnets y mainnets para calificar en
+            el reparto de futuros airdrops y mucho más.
           </p>
         </div>
         <div className="bg-base-100 p-4 small:p-10 flex flex-col gap-4 group">
@@ -71,7 +70,9 @@ const Description = () => {
             <div className="transform transition-transform duration-300 group-hover:rotate-45 group-hover:text-base-100">
               <ArrowRight width={16} />
             </div>
-            <h2 className="text-2xl small:text-3xl font-semibold">Oportunidad</h2>
+            <h2 className="text-2xl small:text-3xl font-semibold">
+              Oportunidad
+            </h2>
           </div>
           <p className="text-justify leading-relaxed font-semibold text-sm small:text-base">
             Si te ha parecido interesante y crees que es una buena oportunidad
